@@ -1,0 +1,29 @@
+[0.430s] Invoking command in '/home/ubuntu/jetracer_ws/build/jetson_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ubuntu/jetracer_ws/src/jetson_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/jetracer_ws/install/jetson_bringup
+[0.496s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.397s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.826s] -- Configuring done
+[1.851s] -- Generating done
+[1.857s] -- Build files have been written to: /home/ubuntu/jetracer_ws/build/jetson_bringup
+[1.885s] Invoked command in '/home/ubuntu/jetracer_ws/build/jetson_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ubuntu/jetracer_ws/src/jetson_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/jetracer_ws/install/jetson_bringup
+[1.887s] Invoking command in '/home/ubuntu/jetracer_ws/build/jetson_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/jetracer_ws/build/jetson_bringup -- -j4 -l4
+[2.078s] Invoked command in '/home/ubuntu/jetracer_ws/build/jetson_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/jetracer_ws/build/jetson_bringup -- -j4 -l4
+[2.252s] Invoking command in '/home/ubuntu/jetracer_ws/build/jetson_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/jetracer_ws/build/jetson_bringup
+[2.282s] -- Install configuration: ""
+[2.284s] -- Execute custom install script
+[2.287s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/launch/jetson.launch.py
+[2.321s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/ament_index/resource_index/package_run_dependencies/jetson_bringup
+[2.355s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/ament_index/resource_index/parent_prefix_path/jetson_bringup
+[2.411s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/environment/ament_prefix_path.sh
+[2.456s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/environment/ament_prefix_path.dsv
+[2.491s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/environment/path.sh
+[2.533s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/environment/path.dsv
+[2.575s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/local_setup.bash
+[2.616s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/local_setup.sh
+[2.657s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/local_setup.zsh
+[2.696s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/local_setup.dsv
+[2.740s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/package.dsv
+[2.779s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/ament_index/resource_index/packages/jetson_bringup
+[2.828s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/cmake/jetson_bringupConfig.cmake
+[2.866s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/cmake/jetson_bringupConfig-version.cmake
+[2.904s] -- Symlinking: /home/ubuntu/jetracer_ws/install/jetson_bringup/share/jetson_bringup/package.xml
+[2.974s] Invoked command in '/home/ubuntu/jetracer_ws/build/jetson_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/jetracer_ws/build/jetson_bringup

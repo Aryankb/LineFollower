@@ -1,0 +1,31 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson-controller.egg-link (link to .)
+running egg_info
+writing ../../build/jetson_controller/jetson_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/jetson_controller/jetson_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/jetson_controller/jetson_controller.egg-info/entry_points.txt
+writing requirements to ../../build/jetson_controller/jetson_controller.egg-info/requires.txt
+writing top-level names to ../../build/jetson_controller/jetson_controller.egg-info/top_level.txt
+reading manifest file '../../build/jetson_controller/jetson_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/jetson_controller/jetson_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller
+copying /home/ubuntu/jetracer_ws/build/jetson_controller/build/lib/jetson_controller/__init__.py -> /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller
+copying /home/ubuntu/jetracer_ws/build/jetson_controller/build/lib/jetson_controller/line_controller.py -> /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller
+byte-compiling /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller/line_controller.py to line_controller.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/jetson_controller/jetson_controller.egg-info to /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing line_controller script to /home/ubuntu/jetracer_ws/install/jetson_controller/lib/jetson_controller
+writing list of installed files to '/home/ubuntu/jetracer_ws/build/jetson_controller/install.log'

@@ -1,0 +1,6 @@
+source;share/jetson_controller/hook/pythonpath.ps1
+source;share/jetson_controller/hook/pythonpath.dsv
+source;share/jetson_controller/hook/pythonpath.sh
+source;../../build/jetson_controller/share/jetson_controller/hook/pythonpath_develop.ps1
+source;../../build/jetson_controller/share/jetson_controller/hook/pythonpath_develop.dsv
+source;../../build/jetson_controller/share/jetson_controller/hook/pythonpath_develop.sh

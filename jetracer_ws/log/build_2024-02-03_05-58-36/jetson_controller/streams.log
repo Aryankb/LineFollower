@@ -1,0 +1,30 @@
+[2.706s] Invoking command in '/home/ubuntu/jetracer_ws/build/jetson_controller': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/jetracer_ws/build/jetson_controller/build --no-deps install_data
+[3.722s] running develop
+[3.727s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.728s]   warnings.warn(
+[3.733s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.733s]   warnings.warn(
+[4.289s] running egg_info
+[4.289s] creating jetson_controller.egg-info
+[4.290s] writing jetson_controller.egg-info/PKG-INFO
+[4.291s] writing dependency_links to jetson_controller.egg-info/dependency_links.txt
+[4.291s] writing entry points to jetson_controller.egg-info/entry_points.txt
+[4.292s] writing requirements to jetson_controller.egg-info/requires.txt
+[4.292s] writing top-level names to jetson_controller.egg-info/top_level.txt
+[4.293s] writing manifest file 'jetson_controller.egg-info/SOURCES.txt'
+[4.299s] reading manifest file 'jetson_controller.egg-info/SOURCES.txt'
+[4.301s] writing manifest file 'jetson_controller.egg-info/SOURCES.txt'
+[4.307s] running build_ext
+[4.308s] Creating /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson-controller.egg-link (link to .)
+[4.311s] Installing line_controller script to /home/ubuntu/jetracer_ws/install/jetson_controller/lib/jetson_controller
+[4.313s] 
+[4.313s] Installed /home/ubuntu/jetracer_ws/build/jetson_controller
+[4.314s] running install_data
+[4.314s] creating /home/ubuntu/jetracer_ws/install/jetson_controller/share
+[4.314s] creating /home/ubuntu/jetracer_ws/install/jetson_controller/share/ament_index
+[4.315s] creating /home/ubuntu/jetracer_ws/install/jetson_controller/share/ament_index/resource_index
+[4.315s] creating /home/ubuntu/jetracer_ws/install/jetson_controller/share/ament_index/resource_index/packages
+[4.316s] copying resource/jetson_controller -> /home/ubuntu/jetracer_ws/install/jetson_controller/share/ament_index/resource_index/packages
+[4.316s] creating /home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller
+[4.317s] copying package.xml -> /home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller
+[4.440s] Invoked command in '/home/ubuntu/jetracer_ws/build/jetson_controller' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/jetracer_ws/build/jetson_controller/build --no-deps install_data

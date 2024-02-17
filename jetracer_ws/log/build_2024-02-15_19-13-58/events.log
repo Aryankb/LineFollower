@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.001987] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.002309] (-) JobUnselected: {'identifier': 'jetson_controller'}
+[0.002505] (sensor_data) JobQueued: {'identifier': 'sensor_data', 'dependencies': OrderedDict()}
+[0.002665] (sensor_data) JobStarted: {'identifier': 'sensor_data'}
+[0.096531] (-) TimerEvent: {}
+[0.197332] (-) TimerEvent: {}
+[0.298833] (-) TimerEvent: {}
+[0.399496] (-) TimerEvent: {}
+[0.500606] (-) TimerEvent: {}
+[0.601421] (-) TimerEvent: {}
+[0.702206] (-) TimerEvent: {}
+[0.802996] (-) TimerEvent: {}
+[0.903768] (-) TimerEvent: {}
+[1.004930] (-) TimerEvent: {}
+[1.106906] (-) TimerEvent: {}
+[1.207750] (-) TimerEvent: {}
+[1.308524] (-) TimerEvent: {}
+[1.409277] (-) TimerEvent: {}
+[1.510058] (-) TimerEvent: {}
+[1.610778] (-) TimerEvent: {}
+[1.711495] (-) TimerEvent: {}
+[1.812139] (-) TimerEvent: {}
+[1.912918] (-) TimerEvent: {}
+[2.013602] (-) TimerEvent: {}
+[2.114286] (-) TimerEvent: {}
+[2.215637] (-) TimerEvent: {}
+[2.317706] (-) TimerEvent: {}
+[2.419261] (-) TimerEvent: {}
+[2.520537] (-) TimerEvent: {}
+[2.621269] (-) TimerEvent: {}
+[2.722408] (-) TimerEvent: {}
+[2.824200] (-) TimerEvent: {}
+[2.925556] (-) TimerEvent: {}
+[3.027917] (-) TimerEvent: {}
+[3.130216] (-) TimerEvent: {}
+[3.232743] (-) TimerEvent: {}
+[3.335368] (-) TimerEvent: {}
+[3.439909] (-) TimerEvent: {}
+[3.542242] (-) TimerEvent: {}
+[3.644034] (-) TimerEvent: {}
+[3.745764] (-) TimerEvent: {}
+[3.847645] (-) TimerEvent: {}
+[3.949500] (-) TimerEvent: {}
+[4.051167] (-) TimerEvent: {}
+[4.153619] (-) TimerEvent: {}
+[4.255110] (-) TimerEvent: {}
+[4.357423] (-) TimerEvent: {}
+[4.459484] (-) TimerEvent: {}
+[4.561316] (-) TimerEvent: {}
+[4.662461] (-) TimerEvent: {}
+[4.763157] (-) TimerEvent: {}
+[4.865147] (-) TimerEvent: {}
+[4.965806] (-) TimerEvent: {}
+[5.067416] (-) TimerEvent: {}
+[5.169568] (-) TimerEvent: {}
+[5.271576] (-) TimerEvent: {}
+[5.373662] (-) TimerEvent: {}
+[5.475411] (-) TimerEvent: {}
+[5.578260] (-) TimerEvent: {}
+[5.639679] (sensor_data) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/jetracer_ws/build/sensor_data/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/jetracer_ws/build/sensor_data', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.74.43 47356 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/jetracer_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e79132b2-da9a-4a49-873c-1f530810fd7a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/jetracer_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a76981ed04.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/jetracer_ws/build/sensor_data', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.74.43 47356 192.168.74.85 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:/home/ubuntu/jetracer_ws/build/sensor_data:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:/home/ubuntu/jetracer_ws/build/jetson_controller:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[5.678456] (-) TimerEvent: {}
+[5.779232] (-) TimerEvent: {}
+[5.880037] (-) TimerEvent: {}
+[5.980711] (-) TimerEvent: {}
+[6.081459] (-) TimerEvent: {}
+[6.182227] (-) TimerEvent: {}
+[6.282906] (-) TimerEvent: {}
+[6.383564] (-) TimerEvent: {}
+[6.484217] (-) TimerEvent: {}
+[6.585994] (-) TimerEvent: {}
+[6.687739] (-) TimerEvent: {}
+[6.789639] (-) TimerEvent: {}
+[6.891358] (-) TimerEvent: {}
+[6.992889] (-) TimerEvent: {}
+[7.094606] (-) TimerEvent: {}
+[7.196357] (-) TimerEvent: {}
+[7.210355] (sensor_data) StdoutLine: {'line': b'running develop\n'}
+[7.218067] (sensor_data) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.219035] (sensor_data) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.231171] (sensor_data) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.231877] (sensor_data) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.296541] (-) TimerEvent: {}
+[7.398158] (-) TimerEvent: {}
+[7.499754] (-) TimerEvent: {}
+[7.606371] (-) TimerEvent: {}
+[7.708148] (-) TimerEvent: {}
+[7.809794] (-) TimerEvent: {}
+[7.911351] (-) TimerEvent: {}
+[8.013373] (-) TimerEvent: {}
+[8.115199] (-) TimerEvent: {}
+[8.147077] (sensor_data) StdoutLine: {'line': b'running egg_info\n'}
+[8.149723] (sensor_data) StdoutLine: {'line': b'writing sensor_data.egg-info/PKG-INFO\n'}
+[8.155401] (sensor_data) StdoutLine: {'line': b'writing dependency_links to sensor_data.egg-info/dependency_links.txt\n'}
+[8.156506] (sensor_data) StdoutLine: {'line': b'writing entry points to sensor_data.egg-info/entry_points.txt\n'}
+[8.157915] (sensor_data) StdoutLine: {'line': b'writing requirements to sensor_data.egg-info/requires.txt\n'}
+[8.158728] (sensor_data) StdoutLine: {'line': b'writing top-level names to sensor_data.egg-info/top_level.txt\n'}
+[8.189973] (sensor_data) StdoutLine: {'line': b"reading manifest file 'sensor_data.egg-info/SOURCES.txt'\n"}
+[8.206362] (sensor_data) StdoutLine: {'line': b"writing manifest file 'sensor_data.egg-info/SOURCES.txt'\n"}
+[8.215352] (-) TimerEvent: {}
+[8.219046] (sensor_data) StdoutLine: {'line': b'running build_ext\n'}
+[8.220527] (sensor_data) StdoutLine: {'line': b'Creating /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor-data.egg-link (link to .)\n'}
+[8.228591] (sensor_data) StdoutLine: {'line': b'Installing infrared_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data\n'}
+[8.234190] (sensor_data) StdoutLine: {'line': b'Installing line_controller script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data\n'}
+[8.235408] (sensor_data) StdoutLine: {'line': b'Installing ultrasonic_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data\n'}
+[8.240228] (sensor_data) StdoutLine: {'line': b'\n'}
+[8.240846] (sensor_data) StdoutLine: {'line': b'Installed /home/ubuntu/jetracer_ws/build/sensor_data\n'}
+[8.241271] (sensor_data) StdoutLine: {'line': b'running install_data\n'}
+[8.315693] (-) TimerEvent: {}
+[8.418816] (-) TimerEvent: {}
+[8.501069] (sensor_data) CommandEnded: {'returncode': 0}
+[8.519140] (-) TimerEvent: {}
+[8.620747] (-) TimerEvent: {}
+[8.722742] (-) TimerEvent: {}
+[8.824356] (-) TimerEvent: {}
+[8.926602] (-) TimerEvent: {}
+[9.036828] (-) TimerEvent: {}
+[9.143377] (-) TimerEvent: {}
+[9.244362] (-) TimerEvent: {}
+[9.346209] (-) TimerEvent: {}
+[9.450968] (-) TimerEvent: {}
+[9.553253] (-) TimerEvent: {}
+[9.654106] (-) TimerEvent: {}
+[9.756469] (-) TimerEvent: {}
+[9.858190] (-) TimerEvent: {}
+[9.959310] (-) TimerEvent: {}
+[9.984536] (sensor_data) JobEnded: {'identifier': 'sensor_data', 'rc': 0}
+[9.999286] (-) EventReactorShutdown: {}

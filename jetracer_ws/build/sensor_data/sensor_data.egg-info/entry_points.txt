@@ -1,0 +1,5 @@
+[console_scripts]
+infrared_data = sensor_data.infrared_data:main
+line_controller = sensor_data.line_controller:main
+ultrasonic_data = sensor_data.ultrasonic_data:main
+

@@ -1,0 +1,21 @@
+[4.836s] Invoking command in '/home/ubuntu/jetracer_ws/build/sensor_data': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/jetracer_ws/build/sensor_data/build --no-deps install_data
+[6.136s] running develop
+[6.138s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.138s]   warnings.warn(
+[6.143s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.143s]   warnings.warn(
+[6.728s] running egg_info
+[6.729s] writing sensor_data.egg-info/PKG-INFO
+[6.730s] writing dependency_links to sensor_data.egg-info/dependency_links.txt
+[6.731s] writing entry points to sensor_data.egg-info/entry_points.txt
+[6.731s] writing requirements to sensor_data.egg-info/requires.txt
+[6.732s] writing top-level names to sensor_data.egg-info/top_level.txt
+[6.740s] reading manifest file 'sensor_data.egg-info/SOURCES.txt'
+[6.743s] writing manifest file 'sensor_data.egg-info/SOURCES.txt'
+[6.749s] running build_ext
+[6.750s] Creating /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor-data.egg-link (link to .)
+[6.753s] Installing infrared_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+[6.754s] 
+[6.755s] Installed /home/ubuntu/jetracer_ws/build/sensor_data
+[6.755s] running install_data
+[6.882s] Invoked command in '/home/ubuntu/jetracer_ws/build/sensor_data' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/jetracer_ws/build/sensor_data/build --no-deps install_data

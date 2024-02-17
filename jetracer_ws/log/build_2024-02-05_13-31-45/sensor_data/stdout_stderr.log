@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/sensor_data/sensor_data.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_data/sensor_data.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_data/sensor_data.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_data/sensor_data.egg-info/requires.txt
+writing top-level names to ../../build/sensor_data/sensor_data.egg-info/top_level.txt
+reading manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sensor_data/line_controller.py -> /home/ubuntu/jetracer_ws/build/sensor_data/build/lib/sensor_data
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/ubuntu/jetracer_ws/build/sensor_data/build/lib/sensor_data/line_controller.py -> /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data
+byte-compiling /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/line_controller.py to line_controller.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sensor_data/sensor_data.egg-info to /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info
+running install_scripts
+Installing infrared_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+Installing line_controller script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+writing list of installed files to '/home/ubuntu/jetracer_ws/build/sensor_data/install.log'

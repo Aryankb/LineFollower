@@ -1,0 +1,3 @@
+[console_scripts]
+line_controller = jetson_controller.line_controller:main
+

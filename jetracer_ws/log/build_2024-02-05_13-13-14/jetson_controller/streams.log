@@ -1,0 +1,21 @@
+[3.155s] Invoking command in '/home/ubuntu/jetracer_ws/build/jetson_controller': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/jetracer_ws/build/jetson_controller/build --no-deps install_data
+[4.241s] running develop
+[4.247s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.247s]   warnings.warn(
+[4.253s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.253s]   warnings.warn(
+[4.861s] running egg_info
+[4.861s] writing jetson_controller.egg-info/PKG-INFO
+[4.862s] writing dependency_links to jetson_controller.egg-info/dependency_links.txt
+[4.862s] writing entry points to jetson_controller.egg-info/entry_points.txt
+[4.863s] writing requirements to jetson_controller.egg-info/requires.txt
+[4.864s] writing top-level names to jetson_controller.egg-info/top_level.txt
+[4.871s] reading manifest file 'jetson_controller.egg-info/SOURCES.txt'
+[4.876s] writing manifest file 'jetson_controller.egg-info/SOURCES.txt'
+[4.883s] running build_ext
+[4.883s] Creating /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson-controller.egg-link (link to .)
+[4.888s] Installing line_controller script to /home/ubuntu/jetracer_ws/install/jetson_controller/lib/jetson_controller
+[4.889s] 
+[4.889s] Installed /home/ubuntu/jetracer_ws/build/jetson_controller
+[4.890s] running install_data
+[5.021s] Invoked command in '/home/ubuntu/jetracer_ws/build/jetson_controller' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/jetracer_ws/build/jetson_controller/build --no-deps install_data

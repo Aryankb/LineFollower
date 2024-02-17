@@ -1,0 +1,23 @@
+[8.162s] Invoking command in '/home/ubuntu/jetracer_ws/build/sensor_data': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/jetracer_ws/build/sensor_data/build --no-deps install_data
+[9.938s] running develop
+[9.945s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.946s]   warnings.warn(
+[9.956s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.957s]   warnings.warn(
+[11.319s] running egg_info
+[11.320s] writing sensor_data.egg-info/PKG-INFO
+[11.325s] writing dependency_links to sensor_data.egg-info/dependency_links.txt
+[11.325s] writing entry points to sensor_data.egg-info/entry_points.txt
+[11.329s] writing requirements to sensor_data.egg-info/requires.txt
+[11.330s] writing top-level names to sensor_data.egg-info/top_level.txt
+[11.342s] reading manifest file 'sensor_data.egg-info/SOURCES.txt'
+[11.472s] writing manifest file 'sensor_data.egg-info/SOURCES.txt'
+[11.480s] running build_ext
+[11.481s] Creating /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor-data.egg-link (link to .)
+[11.503s] Installing infrared_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+[11.506s] Installing line_controller script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+[11.509s] 
+[11.509s] Installed /home/ubuntu/jetracer_ws/build/sensor_data
+[11.510s] running install_data
+[11.511s] copying package.xml -> /home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data
+[11.694s] Invoked command in '/home/ubuntu/jetracer_ws/build/sensor_data' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/jetracer_ws/build/sensor_data/build --no-deps install_data

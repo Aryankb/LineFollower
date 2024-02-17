@@ -1,0 +1,40 @@
+[3.439s] Invoking command in '/home/ubuntu/jetracer_ws/build/jetson_controller': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/jetracer_ws/build/jetson_controller/build
+[4.669s] running develop
+[4.671s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.672s]   warnings.warn(
+[4.678s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.679s]   warnings.warn(
+[5.640s] Removing /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson-controller.egg-link (link to .)
+[5.827s] Invoked command in '/home/ubuntu/jetracer_ws/build/jetson_controller' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/jetracer_ws/build/jetson_controller/build
+[5.829s] Invoking command in '/home/ubuntu/jetracer_ws/src/jetson_controller': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson_controller build --build-base /home/ubuntu/jetracer_ws/build/jetson_controller/build install --record /home/ubuntu/jetracer_ws/build/jetson_controller/install.log --single-version-externally-managed
+[7.193s] running egg_info
+[7.196s] writing ../../build/jetson_controller/jetson_controller.egg-info/PKG-INFO
+[7.198s] writing dependency_links to ../../build/jetson_controller/jetson_controller.egg-info/dependency_links.txt
+[7.201s] writing entry points to ../../build/jetson_controller/jetson_controller.egg-info/entry_points.txt
+[7.203s] writing requirements to ../../build/jetson_controller/jetson_controller.egg-info/requires.txt
+[7.205s] writing top-level names to ../../build/jetson_controller/jetson_controller.egg-info/top_level.txt
+[7.215s] reading manifest file '../../build/jetson_controller/jetson_controller.egg-info/SOURCES.txt'
+[7.220s] writing manifest file '../../build/jetson_controller/jetson_controller.egg-info/SOURCES.txt'
+[7.221s] running build
+[7.222s] running build_py
+[7.223s] creating /home/ubuntu/jetracer_ws/build/jetson_controller/build
+[7.224s] creating /home/ubuntu/jetracer_ws/build/jetson_controller/build/lib
+[7.224s] creating /home/ubuntu/jetracer_ws/build/jetson_controller/build/lib/jetson_controller
+[7.226s] copying jetson_controller/__init__.py -> /home/ubuntu/jetracer_ws/build/jetson_controller/build/lib/jetson_controller
+[7.228s] copying jetson_controller/line_controller.py -> /home/ubuntu/jetracer_ws/build/jetson_controller/build/lib/jetson_controller
+[7.231s] running install
+[7.233s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.234s]   warnings.warn(
+[7.234s] running install_lib
+[7.238s] creating /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller
+[7.239s] copying /home/ubuntu/jetracer_ws/build/jetson_controller/build/lib/jetson_controller/__init__.py -> /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller
+[7.242s] copying /home/ubuntu/jetracer_ws/build/jetson_controller/build/lib/jetson_controller/line_controller.py -> /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller
+[7.247s] byte-compiling /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller/__init__.py to __init__.cpython-310.pyc
+[7.252s] byte-compiling /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller/line_controller.py to line_controller.cpython-310.pyc
+[7.258s] running install_data
+[7.260s] running install_egg_info
+[7.269s] Copying ../../build/jetson_controller/jetson_controller.egg-info to /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson_controller-0.0.0-py3.10.egg-info
+[7.293s] running install_scripts
+[7.386s] Installing line_controller script to /home/ubuntu/jetracer_ws/install/jetson_controller/lib/jetson_controller
+[7.388s] writing list of installed files to '/home/ubuntu/jetracer_ws/build/jetson_controller/install.log'
+[7.524s] Invoked command in '/home/ubuntu/jetracer_ws/src/jetson_controller' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson_controller build --build-base /home/ubuntu/jetracer_ws/build/jetson_controller/build install --record /home/ubuntu/jetracer_ws/build/jetson_controller/install.log --single-version-externally-managed

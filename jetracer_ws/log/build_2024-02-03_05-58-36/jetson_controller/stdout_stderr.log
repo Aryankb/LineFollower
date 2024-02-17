@@ -1,0 +1,28 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating jetson_controller.egg-info
+writing jetson_controller.egg-info/PKG-INFO
+writing dependency_links to jetson_controller.egg-info/dependency_links.txt
+writing entry points to jetson_controller.egg-info/entry_points.txt
+writing requirements to jetson_controller.egg-info/requires.txt
+writing top-level names to jetson_controller.egg-info/top_level.txt
+writing manifest file 'jetson_controller.egg-info/SOURCES.txt'
+reading manifest file 'jetson_controller.egg-info/SOURCES.txt'
+writing manifest file 'jetson_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson-controller.egg-link (link to .)
+Installing line_controller script to /home/ubuntu/jetracer_ws/install/jetson_controller/lib/jetson_controller
+
+Installed /home/ubuntu/jetracer_ws/build/jetson_controller
+running install_data
+creating /home/ubuntu/jetracer_ws/install/jetson_controller/share
+creating /home/ubuntu/jetracer_ws/install/jetson_controller/share/ament_index
+creating /home/ubuntu/jetracer_ws/install/jetson_controller/share/ament_index/resource_index
+creating /home/ubuntu/jetracer_ws/install/jetson_controller/share/ament_index/resource_index/packages
+copying resource/jetson_controller -> /home/ubuntu/jetracer_ws/install/jetson_controller/share/ament_index/resource_index/packages
+creating /home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller
+copying package.xml -> /home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller

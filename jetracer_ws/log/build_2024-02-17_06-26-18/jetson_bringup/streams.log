@@ -1,0 +1,25 @@
+[0.520s] Invoking command in '/home/ubuntu/jetracer_ws/build/jetson_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ubuntu/jetracer_ws/src/jetson_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/jetracer_ws/install/jetson_bringup
+[1.561s] -- The C compiler identification is GNU 11.4.0
+[2.373s] -- The CXX compiler identification is GNU 11.4.0
+[2.451s] -- Detecting C compiler ABI info
+[2.917s] -- Detecting C compiler ABI info - done
+[2.949s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.953s] -- Detecting C compile features
+[2.958s] -- Detecting C compile features - done
+[2.979s] -- Detecting CXX compiler ABI info
+[3.479s] -- Detecting CXX compiler ABI info - done
+[3.507s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.509s] -- Detecting CXX compile features
+[3.511s] -- Detecting CXX compile features - done
+[3.616s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.877s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.300s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.740s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake:43 (_install):
+[5.741s]   _install does not recognize sub-command PARENT_DIRECTORY
+[5.742s] Call Stack (most recent call first):
+[5.742s]   CMakeLists.txt:14 (install)
+[5.742s] 
+[5.743s] [0m
+[6.234s] -- Configuring incomplete, errors occurred!
+[6.236s] See also "/home/ubuntu/jetracer_ws/build/jetson_bringup/CMakeFiles/CMakeOutput.log".
+[6.261s] Invoked command in '/home/ubuntu/jetracer_ws/build/jetson_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ubuntu/jetracer_ws/src/jetson_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/jetracer_ws/install/jetson_bringup

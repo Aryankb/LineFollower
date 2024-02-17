@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing sensor_data.egg-info/PKG-INFO
+writing dependency_links to sensor_data.egg-info/dependency_links.txt
+writing entry points to sensor_data.egg-info/entry_points.txt
+writing requirements to sensor_data.egg-info/requires.txt
+writing top-level names to sensor_data.egg-info/top_level.txt
+reading manifest file 'sensor_data.egg-info/SOURCES.txt'
+writing manifest file 'sensor_data.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor-data.egg-link (link to .)
+Installing infrared_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+Installing line_controller script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+Installing ultrasonic_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+
+Installed /home/ubuntu/jetracer_ws/build/sensor_data
+running install_data

@@ -1,0 +1,27 @@
+[4.647s] Invoking command in '/home/ubuntu/jetracer_ws/src/sensor_data': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/ubuntu/jetracer_ws/build/sensor_data/build install --record /home/ubuntu/jetracer_ws/build/sensor_data/install.log --single-version-externally-managed
+[5.837s] running egg_info
+[5.840s] writing ../../build/sensor_data/sensor_data.egg-info/PKG-INFO
+[5.842s] writing dependency_links to ../../build/sensor_data/sensor_data.egg-info/dependency_links.txt
+[5.843s] writing entry points to ../../build/sensor_data/sensor_data.egg-info/entry_points.txt
+[5.843s] writing requirements to ../../build/sensor_data/sensor_data.egg-info/requires.txt
+[5.844s] writing top-level names to ../../build/sensor_data/sensor_data.egg-info/top_level.txt
+[5.852s] reading manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[5.856s] writing manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[5.856s] running build
+[5.857s] running build_py
+[5.858s] copying sensor_data/line_controller.py -> /home/ubuntu/jetracer_ws/build/sensor_data/build/lib/sensor_data
+[5.859s] running install
+[5.860s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.860s]   warnings.warn(
+[5.861s] running install_lib
+[5.865s] copying /home/ubuntu/jetracer_ws/build/sensor_data/build/lib/sensor_data/line_controller.py -> /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data
+[5.869s] byte-compiling /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/line_controller.py to line_controller.cpython-310.pyc
+[5.872s] running install_data
+[5.874s] running install_egg_info
+[5.881s] removing '/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info' (and everything under it)
+[5.884s] Copying ../../build/sensor_data/sensor_data.egg-info to /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info
+[5.892s] running install_scripts
+[5.978s] Installing infrared_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+[5.979s] Installing line_controller script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+[5.981s] writing list of installed files to '/home/ubuntu/jetracer_ws/build/sensor_data/install.log'
+[6.109s] Invoked command in '/home/ubuntu/jetracer_ws/src/sensor_data' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/ubuntu/jetracer_ws/build/sensor_data/build install --record /home/ubuntu/jetracer_ws/build/sensor_data/install.log --single-version-externally-managed

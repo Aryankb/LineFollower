@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.002658] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.003505] (-) JobUnselected: {'identifier': 'jetson_controller'}
+[0.004652] (sensor_data) JobQueued: {'identifier': 'sensor_data', 'dependencies': OrderedDict()}
+[0.006091] (sensor_data) JobStarted: {'identifier': 'sensor_data'}
+[0.081678] (-) TimerEvent: {}
+[0.182450] (-) TimerEvent: {}
+[0.283292] (-) TimerEvent: {}
+[0.384713] (-) TimerEvent: {}
+[0.485938] (-) TimerEvent: {}
+[0.587253] (-) TimerEvent: {}
+[0.688170] (-) TimerEvent: {}
+[0.789193] (-) TimerEvent: {}
+[0.890561] (-) TimerEvent: {}
+[0.991434] (-) TimerEvent: {}
+[1.092845] (-) TimerEvent: {}
+[1.195337] (-) TimerEvent: {}
+[1.296099] (-) TimerEvent: {}
+[1.396865] (-) TimerEvent: {}
+[1.497712] (-) TimerEvent: {}
+[1.598435] (-) TimerEvent: {}
+[1.699210] (-) TimerEvent: {}
+[1.799959] (-) TimerEvent: {}
+[1.901059] (-) TimerEvent: {}
+[2.001823] (-) TimerEvent: {}
+[2.102627] (-) TimerEvent: {}
+[2.204476] (-) TimerEvent: {}
+[2.305291] (-) TimerEvent: {}
+[2.406462] (-) TimerEvent: {}
+[2.507288] (-) TimerEvent: {}
+[2.608051] (-) TimerEvent: {}
+[2.708851] (-) TimerEvent: {}
+[2.810151] (-) TimerEvent: {}
+[2.997960] (-) TimerEvent: {}
+[3.099386] (-) TimerEvent: {}
+[3.200415] (-) TimerEvent: {}
+[3.301159] (-) TimerEvent: {}
+[3.402108] (-) TimerEvent: {}
+[3.502856] (-) TimerEvent: {}
+[3.604762] (-) TimerEvent: {}
+[3.707381] (-) TimerEvent: {}
+[3.808031] (-) TimerEvent: {}
+[3.910047] (-) TimerEvent: {}
+[4.011562] (-) TimerEvent: {}
+[4.112599] (-) TimerEvent: {}
+[4.213335] (-) TimerEvent: {}
+[4.315772] (-) TimerEvent: {}
+[4.416860] (-) TimerEvent: {}
+[4.519401] (-) TimerEvent: {}
+[4.620158] (-) TimerEvent: {}
+[4.722492] (-) TimerEvent: {}
+[4.823216] (-) TimerEvent: {}
+[4.924735] (-) TimerEvent: {}
+[5.026777] (-) TimerEvent: {}
+[5.127934] (-) TimerEvent: {}
+[5.228860] (-) TimerEvent: {}
+[5.329637] (-) TimerEvent: {}
+[5.431115] (-) TimerEvent: {}
+[5.532151] (-) TimerEvent: {}
+[5.633735] (-) TimerEvent: {}
+[5.736070] (-) TimerEvent: {}
+[5.836846] (-) TimerEvent: {}
+[5.938133] (-) TimerEvent: {}
+[6.038777] (-) TimerEvent: {}
+[6.139761] (-) TimerEvent: {}
+[6.241099] (-) TimerEvent: {}
+[6.341978] (-) TimerEvent: {}
+[6.442866] (-) TimerEvent: {}
+[6.543700] (-) TimerEvent: {}
+[6.645744] (-) TimerEvent: {}
+[6.746532] (-) TimerEvent: {}
+[6.847752] (-) TimerEvent: {}
+[6.950788] (-) TimerEvent: {}
+[7.051524] (-) TimerEvent: {}
+[7.153761] (-) TimerEvent: {}
+[7.254392] (-) TimerEvent: {}
+[7.355111] (-) TimerEvent: {}
+[7.456019] (-) TimerEvent: {}
+[7.556679] (-) TimerEvent: {}
+[7.657420] (-) TimerEvent: {}
+[7.758214] (-) TimerEvent: {}
+[8.013434] (-) TimerEvent: {}
+[8.114117] (-) TimerEvent: {}
+[8.164065] (sensor_data) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/jetracer_ws/build/sensor_data/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/jetracer_ws/build/sensor_data', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.74.3 49792 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-31c37ee8f63491495ac49e43b8544550fbae4533/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-31c37ee8f63491495ac49e43b8544550fbae4533/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/jetracer_ws/src', 'TERM_PROGRAM_VERSION': '1.86.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-060e996a-d48c-4d97-9ec0-71d155db89ed.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-31c37ee8f63491495ac49e43b8544550fbae4533/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-31c37ee8f63491495ac49e43b8544550fbae4533/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/jetracer_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-31c37ee8f63491495ac49e43b8544550fbae4533/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-02bfff8894.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/jetracer_ws/build/sensor_data', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.74.3 49792 192.168.74.85 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:/home/ubuntu/jetracer_ws/build/sensor_data:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:/home/ubuntu/jetracer_ws/build/jetson_controller:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[8.214830] (-) TimerEvent: {}
+[8.315697] (-) TimerEvent: {}
+[8.417411] (-) TimerEvent: {}
+[8.520908] (-) TimerEvent: {}
+[8.622736] (-) TimerEvent: {}
+[8.724999] (-) TimerEvent: {}
+[8.826394] (-) TimerEvent: {}
+[8.927608] (-) TimerEvent: {}
+[9.029109] (-) TimerEvent: {}
+[9.129840] (-) TimerEvent: {}
+[9.231529] (-) TimerEvent: {}
+[9.332194] (-) TimerEvent: {}
+[9.433106] (-) TimerEvent: {}
+[9.533782] (-) TimerEvent: {}
+[9.634551] (-) TimerEvent: {}
+[9.735946] (-) TimerEvent: {}
+[9.837253] (-) TimerEvent: {}
+[9.938023] (-) TimerEvent: {}
+[9.943412] (sensor_data) StdoutLine: {'line': b'running develop\n'}
+[9.951296] (sensor_data) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.951978] (sensor_data) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.961633] (sensor_data) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.963272] (sensor_data) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.038171] (-) TimerEvent: {}
+[10.139659] (-) TimerEvent: {}
+[10.240602] (-) TimerEvent: {}
+[10.341330] (-) TimerEvent: {}
+[10.442043] (-) TimerEvent: {}
+[10.542715] (-) TimerEvent: {}
+[10.643474] (-) TimerEvent: {}
+[10.744186] (-) TimerEvent: {}
+[10.844952] (-) TimerEvent: {}
+[10.945695] (-) TimerEvent: {}
+[11.047091] (-) TimerEvent: {}
+[11.147925] (-) TimerEvent: {}
+[11.248985] (-) TimerEvent: {}
+[11.324959] (sensor_data) StdoutLine: {'line': b'running egg_info\n'}
+[11.325972] (sensor_data) StdoutLine: {'line': b'writing sensor_data.egg-info/PKG-INFO\n'}
+[11.330345] (sensor_data) StdoutLine: {'line': b'writing dependency_links to sensor_data.egg-info/dependency_links.txt\n'}
+[11.331256] (sensor_data) StdoutLine: {'line': b'writing entry points to sensor_data.egg-info/entry_points.txt\n'}
+[11.335420] (sensor_data) StdoutLine: {'line': b'writing requirements to sensor_data.egg-info/requires.txt\n'}
+[11.336051] (sensor_data) StdoutLine: {'line': b'writing top-level names to sensor_data.egg-info/top_level.txt\n'}
+[11.347887] (sensor_data) StdoutLine: {'line': b"reading manifest file 'sensor_data.egg-info/SOURCES.txt'\n"}
+[11.349263] (-) TimerEvent: {}
+[11.450538] (-) TimerEvent: {}
+[11.478354] (sensor_data) StdoutLine: {'line': b"writing manifest file 'sensor_data.egg-info/SOURCES.txt'\n"}
+[11.486302] (sensor_data) StdoutLine: {'line': b'running build_ext\n'}
+[11.487407] (sensor_data) StdoutLine: {'line': b'Creating /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor-data.egg-link (link to .)\n'}
+[11.508619] (sensor_data) StdoutLine: {'line': b'Installing infrared_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data\n'}
+[11.511571] (sensor_data) StdoutLine: {'line': b'Installing line_controller script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data\n'}
+[11.514610] (sensor_data) StdoutLine: {'line': b'\n'}
+[11.515240] (sensor_data) StdoutLine: {'line': b'Installed /home/ubuntu/jetracer_ws/build/sensor_data\n'}
+[11.516081] (sensor_data) StdoutLine: {'line': b'running install_data\n'}
+[11.516685] (sensor_data) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data\n'}
+[11.550800] (-) TimerEvent: {}
+[11.654092] (-) TimerEvent: {}
+[11.699328] (sensor_data) CommandEnded: {'returncode': 0}
+[11.754297] (-) TimerEvent: {}
+[11.855023] (-) TimerEvent: {}
+[11.955800] (-) TimerEvent: {}
+[12.056534] (-) TimerEvent: {}
+[12.163323] (-) TimerEvent: {}
+[12.264130] (-) TimerEvent: {}
+[12.365480] (-) TimerEvent: {}
+[12.466096] (-) TimerEvent: {}
+[12.566732] (-) TimerEvent: {}
+[12.667388] (-) TimerEvent: {}
+[12.738431] (sensor_data) JobEnded: {'identifier': 'sensor_data', 'rc': 0}
+[12.741786] (-) EventReactorShutdown: {}

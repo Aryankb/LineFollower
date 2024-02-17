@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000803] (jetson_controller) JobQueued: {'identifier': 'jetson_controller', 'dependencies': OrderedDict()}
+[0.001768] (sensor_data) JobQueued: {'identifier': 'sensor_data', 'dependencies': OrderedDict()}
+[0.001869] (jetson_controller) JobStarted: {'identifier': 'jetson_controller'}
+[0.099657] (-) TimerEvent: {}
+[0.200903] (-) TimerEvent: {}
+[0.281347] (sensor_data) JobStarted: {'identifier': 'sensor_data'}
+[0.301167] (-) TimerEvent: {}
+[0.401877] (-) TimerEvent: {}
+[0.503001] (-) TimerEvent: {}
+[0.606377] (-) TimerEvent: {}
+[0.707139] (-) TimerEvent: {}
+[0.807938] (-) TimerEvent: {}
+[0.908727] (-) TimerEvent: {}
+[1.009437] (-) TimerEvent: {}
+[1.110490] (-) TimerEvent: {}
+[1.211104] (-) TimerEvent: {}
+[1.311766] (-) TimerEvent: {}
+[1.412438] (-) TimerEvent: {}
+[1.513222] (-) TimerEvent: {}
+[1.614233] (-) TimerEvent: {}
+[1.715696] (-) TimerEvent: {}
+[1.816430] (-) TimerEvent: {}
+[1.917253] (-) TimerEvent: {}
+[2.018153] (-) TimerEvent: {}
+[2.119009] (-) TimerEvent: {}
+[2.220696] (-) TimerEvent: {}
+[2.321462] (-) TimerEvent: {}
+[2.422286] (-) TimerEvent: {}
+[2.523775] (-) TimerEvent: {}
+[2.625222] (-) TimerEvent: {}
+[2.726692] (-) TimerEvent: {}
+[2.828428] (-) TimerEvent: {}
+[2.930174] (-) TimerEvent: {}
+[3.032659] (-) TimerEvent: {}
+[3.134224] (-) TimerEvent: {}
+[3.235048] (-) TimerEvent: {}
+[3.336720] (-) TimerEvent: {}
+[3.416792] (jetson_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/jetracer_ws/build/jetson_controller/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/jetracer_ws/build/jetson_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.65.43 43988 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/jetracer_ws/src', 'TERM_PROGRAM_VERSION': '1.86.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0c8ae8f3-3873-4c19-9cf5-3e8c75619361.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/jetracer_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-078e99b1f3.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/jetracer_ws/build/jetson_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.65.43 43988 192.168.65.85 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:/home/ubuntu/jetracer_ws/build/jetson_controller:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[3.436872] (-) TimerEvent: {}
+[3.537685] (-) TimerEvent: {}
+[3.639223] (-) TimerEvent: {}
+[3.740430] (-) TimerEvent: {}
+[3.841173] (-) TimerEvent: {}
+[3.941827] (-) TimerEvent: {}
+[4.042554] (-) TimerEvent: {}
+[4.143257] (-) TimerEvent: {}
+[4.243910] (-) TimerEvent: {}
+[4.344755] (-) TimerEvent: {}
+[4.446141] (-) TimerEvent: {}
+[4.547407] (-) TimerEvent: {}
+[4.649405] (-) TimerEvent: {}
+[4.750229] (-) TimerEvent: {}
+[4.779571] (jetson_controller) StdoutLine: {'line': b'running develop\n'}
+[4.782660] (jetson_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.783272] (jetson_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.788598] (jetson_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.789350] (jetson_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.850518] (-) TimerEvent: {}
+[4.952971] (-) TimerEvent: {}
+[5.054184] (-) TimerEvent: {}
+[5.114549] (sensor_data) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/jetracer_ws/build/sensor_data/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/jetracer_ws/build/sensor_data', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.65.43 43988 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/jetracer_ws/src', 'TERM_PROGRAM_VERSION': '1.86.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0c8ae8f3-3873-4c19-9cf5-3e8c75619361.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/jetracer_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-078e99b1f3.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/ubuntu/jetracer_ws/install/sensor_data:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/jetracer_ws/build/sensor_data', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.65.43 43988 192.168.65.85 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:/home/ubuntu/jetracer_ws/build/jetson_controller:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[5.154424] (-) TimerEvent: {}
+[5.255340] (-) TimerEvent: {}
+[5.356041] (-) TimerEvent: {}
+[5.456762] (-) TimerEvent: {}
+[5.557500] (-) TimerEvent: {}
+[5.658910] (-) TimerEvent: {}
+[5.661169] (jetson_controller) StdoutLine: {'line': b'running egg_info\n'}
+[5.662048] (jetson_controller) StdoutLine: {'line': b'writing jetson_controller.egg-info/PKG-INFO\n'}
+[5.662951] (jetson_controller) StdoutLine: {'line': b'writing dependency_links to jetson_controller.egg-info/dependency_links.txt\n'}
+[5.663899] (jetson_controller) StdoutLine: {'line': b'writing entry points to jetson_controller.egg-info/entry_points.txt\n'}
+[5.667220] (jetson_controller) StdoutLine: {'line': b'writing requirements to jetson_controller.egg-info/requires.txt\n'}
+[5.667818] (jetson_controller) StdoutLine: {'line': b'writing top-level names to jetson_controller.egg-info/top_level.txt\n'}
+[5.673646] (jetson_controller) StdoutLine: {'line': b"reading manifest file 'jetson_controller.egg-info/SOURCES.txt'\n"}
+[5.681097] (jetson_controller) StdoutLine: {'line': b"writing manifest file 'jetson_controller.egg-info/SOURCES.txt'\n"}
+[5.684563] (jetson_controller) StdoutLine: {'line': b'running build_ext\n'}
+[5.685614] (jetson_controller) StdoutLine: {'line': b'Creating /home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages/jetson-controller.egg-link (link to .)\n'}
+[5.689751] (jetson_controller) StdoutLine: {'line': b'Installing line_controller script to /home/ubuntu/jetracer_ws/install/jetson_controller/lib/jetson_controller\n'}
+[5.691173] (jetson_controller) StdoutLine: {'line': b'\n'}
+[5.691901] (jetson_controller) StdoutLine: {'line': b'Installed /home/ubuntu/jetracer_ws/build/jetson_controller\n'}
+[5.692398] (jetson_controller) StdoutLine: {'line': b'running install_data\n'}
+[5.759107] (-) TimerEvent: {}
+[5.840166] (jetson_controller) CommandEnded: {'returncode': 0}
+[5.859626] (-) TimerEvent: {}
+[5.962763] (-) TimerEvent: {}
+[6.065665] (-) TimerEvent: {}
+[6.167234] (-) TimerEvent: {}
+[6.188181] (jetson_controller) JobEnded: {'identifier': 'jetson_controller', 'rc': 0}
+[6.267419] (-) TimerEvent: {}
+[6.368038] (-) TimerEvent: {}
+[6.417246] (sensor_data) StdoutLine: {'line': b'running develop\n'}
+[6.418674] (sensor_data) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.419219] (sensor_data) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.423731] (sensor_data) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.424363] (sensor_data) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.468181] (-) TimerEvent: {}
+[6.568942] (-) TimerEvent: {}
+[6.669667] (-) TimerEvent: {}
+[6.770339] (-) TimerEvent: {}
+[6.871149] (-) TimerEvent: {}
+[6.971769] (-) TimerEvent: {}
+[7.009476] (sensor_data) StdoutLine: {'line': b'running egg_info\n'}
+[7.010132] (sensor_data) StdoutLine: {'line': b'writing sensor_data.egg-info/PKG-INFO\n'}
+[7.011026] (sensor_data) StdoutLine: {'line': b'writing dependency_links to sensor_data.egg-info/dependency_links.txt\n'}
+[7.011833] (sensor_data) StdoutLine: {'line': b'writing entry points to sensor_data.egg-info/entry_points.txt\n'}
+[7.012506] (sensor_data) StdoutLine: {'line': b'writing requirements to sensor_data.egg-info/requires.txt\n'}
+[7.013133] (sensor_data) StdoutLine: {'line': b'writing top-level names to sensor_data.egg-info/top_level.txt\n'}
+[7.020692] (sensor_data) StdoutLine: {'line': b"reading manifest file 'sensor_data.egg-info/SOURCES.txt'\n"}
+[7.024002] (sensor_data) StdoutLine: {'line': b"writing manifest file 'sensor_data.egg-info/SOURCES.txt'\n"}
+[7.030018] (sensor_data) StdoutLine: {'line': b'running build_ext\n'}
+[7.030870] (sensor_data) StdoutLine: {'line': b'Creating /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor-data.egg-link (link to .)\n'}
+[7.034043] (sensor_data) StdoutLine: {'line': b'Installing infrared_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data\n'}
+[7.035290] (sensor_data) StdoutLine: {'line': b'\n'}
+[7.035818] (sensor_data) StdoutLine: {'line': b'Installed /home/ubuntu/jetracer_ws/build/sensor_data\n'}
+[7.036134] (sensor_data) StdoutLine: {'line': b'running install_data\n'}
+[7.072140] (-) TimerEvent: {}
+[7.163028] (sensor_data) CommandEnded: {'returncode': 0}
+[7.172452] (-) TimerEvent: {}
+[7.276196] (-) TimerEvent: {}
+[7.378137] (-) TimerEvent: {}
+[7.401491] (sensor_data) JobEnded: {'identifier': 'sensor_data', 'rc': 0}
+[7.404560] (-) EventReactorShutdown: {}

@@ -1,0 +1,186 @@
+[3.706s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.706s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa5379ba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa5667e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa5667e50>>)
+[3.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.893s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/jetracer_ws'
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extension 'ignore'
+[3.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extension 'ignore_ament_install'
+[3.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extensions ['colcon_pkg']
+[3.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extension 'colcon_pkg'
+[3.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extensions ['colcon_meta']
+[3.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extension 'colcon_meta'
+[3.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extensions ['ros']
+[3.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extension 'ros'
+[3.958s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/jetson_controller': Error(s) in package 'src/jetson_controller/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 11, column 24
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extensions ['cmake', 'python']
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extension 'cmake'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extension 'python'
+[3.959s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/jetson_controller' passes arguments to the setup() function which requires a different identification extension than 'python'
+[3.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extensions ['python_setup_py']
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetson_controller) by extension 'python_setup_py'
+[4.997s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jetson_controller' with type 'python' and name 'jetson_controller'
+[4.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extensions ['ignore', 'ignore_ament_install']
+[4.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'ignore'
+[4.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'ignore_ament_install'
+[4.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extensions ['colcon_pkg']
+[4.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'colcon_pkg'
+[4.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extensions ['colcon_meta']
+[4.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'colcon_meta'
+[4.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extensions ['ros']
+[4.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_data) by extension 'ros'
+[5.006s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_data' with type 'ros.ament_python' and name 'sensor_data'
+[5.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.445s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ubuntu/jetracer_ws/install
+[5.498s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/ubuntu/turtlebot3_ws/install
+[5.553s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 184 installed packages in /opt/ros/humble
+[5.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'jetson_controller' build argument 'cmake_args' from command line to 'None'
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'jetson_controller' build argument 'cmake_target' from command line to 'None'
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'jetson_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'jetson_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'jetson_controller' build argument 'cmake_clean_first' from command line to 'False'
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'jetson_controller' build argument 'cmake_force_configure' from command line to 'False'
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'jetson_controller' build argument 'ament_cmake_args' from command line to 'None'
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'jetson_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'jetson_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.841s] DEBUG:colcon.colcon_core.verb:Building package 'jetson_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/jetracer_ws/build/jetson_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/jetracer_ws/install/jetson_controller', 'merge_install': False, 'path': '/home/ubuntu/jetracer_ws/src/jetson_controller', 'symlink_install': False, 'test_result_base': None}
+[5.892s] Level 5:colcon.colcon_core.verb:set package 'sensor_data' build argument 'cmake_args' from command line to 'None'
+[5.892s] Level 5:colcon.colcon_core.verb:set package 'sensor_data' build argument 'cmake_target' from command line to 'None'
+[5.892s] Level 5:colcon.colcon_core.verb:set package 'sensor_data' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.893s] Level 5:colcon.colcon_core.verb:set package 'sensor_data' build argument 'cmake_clean_cache' from command line to 'False'
+[5.893s] Level 5:colcon.colcon_core.verb:set package 'sensor_data' build argument 'cmake_clean_first' from command line to 'False'
+[5.893s] Level 5:colcon.colcon_core.verb:set package 'sensor_data' build argument 'cmake_force_configure' from command line to 'False'
+[5.893s] Level 5:colcon.colcon_core.verb:set package 'sensor_data' build argument 'ament_cmake_args' from command line to 'None'
+[5.893s] Level 5:colcon.colcon_core.verb:set package 'sensor_data' build argument 'catkin_cmake_args' from command line to 'None'
+[5.893s] Level 5:colcon.colcon_core.verb:set package 'sensor_data' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.893s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_data' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/jetracer_ws/build/sensor_data', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/jetracer_ws/install/sensor_data', 'merge_install': False, 'path': '/home/ubuntu/jetracer_ws/src/sensor_data', 'symlink_install': False, 'test_result_base': None}
+[5.941s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.994s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.995s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/jetracer_ws/src/jetson_controller'
+[6.055s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.056s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.277s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/jetracer_ws/src/sensor_data' with build type 'ament_python'
+[6.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_data', 'ament_prefix_path')
+[6.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/hook/ament_prefix_path.ps1'
+[6.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/hook/ament_prefix_path.dsv'
+[6.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/hook/ament_prefix_path.sh'
+[6.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.992s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/jetracer_ws/src/sensor_data'
+[9.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/jetracer_ws/build/jetson_controller': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/jetracer_ws/build/jetson_controller/build
+[11.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/jetracer_ws/build/sensor_data': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/jetracer_ws/build/sensor_data/build
+[11.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/jetracer_ws/build/jetson_controller' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/jetracer_ws/build/jetson_controller/build
+[11.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/jetracer_ws/src/jetson_controller': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson_controller build --build-base /home/ubuntu/jetracer_ws/build/jetson_controller/build install --record /home/ubuntu/jetracer_ws/build/jetson_controller/install.log --single-version-externally-managed
+[13.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/jetracer_ws/src/jetson_controller' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/jetson_controller/prefix_override:/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jetson_controller build --build-base /home/ubuntu/jetracer_ws/build/jetson_controller/build install --record /home/ubuntu/jetracer_ws/build/jetson_controller/install.log --single-version-externally-managed
+[13.596s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/jetson_controller' for CMake module files
+[13.598s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/jetson_controller' for CMake config files
+[13.602s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/jetson_controller/lib'
+[13.603s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/jetson_controller/bin'
+[13.603s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/jetson_controller/lib/pkgconfig/jetson_controller.pc'
+[13.604s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/jetson_controller/lib/python3.10/site-packages'
+[13.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetson_controller', 'pythonpath')
+[13.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller/hook/pythonpath.ps1'
+[13.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller/hook/pythonpath.dsv'
+[13.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller/hook/pythonpath.sh'
+[13.724s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/jetson_controller/bin'
+[13.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetson_controller)
+[13.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller/package.ps1'
+[13.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller/package.dsv'
+[13.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller/package.sh'
+[13.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller/package.bash'
+[13.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/jetracer_ws/install/jetson_controller/share/jetson_controller/package.zsh'
+[13.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/jetracer_ws/install/jetson_controller/share/colcon-core/packages/jetson_controller)
+[13.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/jetracer_ws/build/sensor_data' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/jetracer_ws/build/sensor_data/build
+[13.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/jetracer_ws/src/sensor_data': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/ubuntu/jetracer_ws/build/sensor_data/build install --record /home/ubuntu/jetracer_ws/build/sensor_data/install.log --single-version-externally-managed
+[15.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/jetracer_ws/src/sensor_data' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/ubuntu/jetracer_ws/build/sensor_data/build install --record /home/ubuntu/jetracer_ws/build/sensor_data/install.log --single-version-externally-managed
+[15.107s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/sensor_data' for CMake module files
+[15.110s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/sensor_data' for CMake config files
+[15.113s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/sensor_data/lib'
+[15.113s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/sensor_data/bin'
+[15.114s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/sensor_data/lib/pkgconfig/sensor_data.pc'
+[15.114s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages'
+[15.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_data', 'pythonpath')
+[15.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/hook/pythonpath.ps1'
+[15.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/hook/pythonpath.dsv'
+[15.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/hook/pythonpath.sh'
+[15.169s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/jetracer_ws/install/sensor_data/bin'
+[15.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_data)
+[15.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/package.ps1'
+[15.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/package.dsv'
+[15.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/package.sh'
+[15.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/package.bash'
+[15.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data/package.zsh'
+[15.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/jetracer_ws/install/sensor_data/share/colcon-core/packages/sensor_data)
+[15.229s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.231s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.304s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.306s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.307s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.367s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/jetracer_ws/install/local_setup.ps1'
+[15.370s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/jetracer_ws/install/_local_setup_util_ps1.py'
+[15.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/jetracer_ws/install/setup.ps1'
+[15.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/jetracer_ws/install/local_setup.sh'
+[15.432s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/jetracer_ws/install/_local_setup_util_sh.py'
+[15.434s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/jetracer_ws/install/setup.sh'
+[15.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/jetracer_ws/install/local_setup.bash'
+[15.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/jetracer_ws/install/setup.bash'
+[15.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/jetracer_ws/install/local_setup.zsh'
+[15.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/jetracer_ws/install/setup.zsh'

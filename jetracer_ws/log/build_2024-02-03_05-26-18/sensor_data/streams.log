@@ -1,0 +1,39 @@
+[3.463s] Invoking command in '/home/ubuntu/jetracer_ws/src/sensor_data': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/ubuntu/jetracer_ws/build/sensor_data/build install --record /home/ubuntu/jetracer_ws/build/sensor_data/install.log --single-version-externally-managed
+[4.399s] running egg_info
+[4.401s] creating ../../build/sensor_data/sensor_data.egg-info
+[4.402s] writing ../../build/sensor_data/sensor_data.egg-info/PKG-INFO
+[4.403s] writing dependency_links to ../../build/sensor_data/sensor_data.egg-info/dependency_links.txt
+[4.404s] writing entry points to ../../build/sensor_data/sensor_data.egg-info/entry_points.txt
+[4.404s] writing requirements to ../../build/sensor_data/sensor_data.egg-info/requires.txt
+[4.404s] writing top-level names to ../../build/sensor_data/sensor_data.egg-info/top_level.txt
+[4.405s] writing manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[4.412s] reading manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[4.415s] writing manifest file '../../build/sensor_data/sensor_data.egg-info/SOURCES.txt'
+[4.415s] running build
+[4.416s] running build_py
+[4.416s] creating /home/ubuntu/jetracer_ws/build/sensor_data/build
+[4.417s] creating /home/ubuntu/jetracer_ws/build/sensor_data/build/lib
+[4.417s] creating /home/ubuntu/jetracer_ws/build/sensor_data/build/lib/sensor_data
+[4.418s] copying sensor_data/infrared_data.py -> /home/ubuntu/jetracer_ws/build/sensor_data/build/lib/sensor_data
+[4.418s] copying sensor_data/__init__.py -> /home/ubuntu/jetracer_ws/build/sensor_data/build/lib/sensor_data
+[4.419s] running install
+[4.421s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.421s]   warnings.warn(
+[4.422s] running install_lib
+[4.426s] creating /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data
+[4.426s] copying /home/ubuntu/jetracer_ws/build/sensor_data/build/lib/sensor_data/infrared_data.py -> /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data
+[4.427s] copying /home/ubuntu/jetracer_ws/build/sensor_data/build/lib/sensor_data/__init__.py -> /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data
+[4.429s] byte-compiling /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/infrared_data.py to infrared_data.cpython-310.pyc
+[4.432s] byte-compiling /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data/__init__.py to __init__.cpython-310.pyc
+[4.433s] running install_data
+[4.436s] creating /home/ubuntu/jetracer_ws/install/sensor_data/share/ament_index
+[4.437s] creating /home/ubuntu/jetracer_ws/install/sensor_data/share/ament_index/resource_index
+[4.437s] creating /home/ubuntu/jetracer_ws/install/sensor_data/share/ament_index/resource_index/packages
+[4.438s] copying resource/sensor_data -> /home/ubuntu/jetracer_ws/install/sensor_data/share/ament_index/resource_index/packages
+[4.438s] copying package.xml -> /home/ubuntu/jetracer_ws/install/sensor_data/share/sensor_data
+[4.439s] running install_egg_info
+[4.446s] Copying ../../build/sensor_data/sensor_data.egg-info to /home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages/sensor_data-0.0.0-py3.10.egg-info
+[4.450s] running install_scripts
+[4.528s] Installing infrared_data script to /home/ubuntu/jetracer_ws/install/sensor_data/lib/sensor_data
+[4.530s] writing list of installed files to '/home/ubuntu/jetracer_ws/build/sensor_data/install.log'
+[4.643s] Invoked command in '/home/ubuntu/jetracer_ws/src/sensor_data' returned '0': PYTHONPATH=/home/ubuntu/jetracer_ws/build/sensor_data/prefix_override:/home/ubuntu/jetracer_ws/install/sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_data build --build-base /home/ubuntu/jetracer_ws/build/sensor_data/build install --record /home/ubuntu/jetracer_ws/build/sensor_data/install.log --single-version-externally-managed
